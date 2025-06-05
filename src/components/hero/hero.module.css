@@ -1,0 +1,100 @@
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 50px 0 30px 0; 
+}
+.heroContent {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+.image {
+  width: 300px;
+  height: 290px;
+  border-radius: 350px;
+}
+.bottomHeroContent {
+  align-content: center;
+  margin-left: 4rem;
+}
+.hello {
+  font-size: 18px;
+  margin-left: 45px;
+  margin-bottom: 3px;
+}
+.name {
+  font-size: 20px;
+  justify-content: center;
+  margin-left: 8px;
+  margin-bottom: 3px;
+}
+.skill {
+  font-size: 28px;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.btn {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.cv {
+  border: 2px solid #333;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.cv:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+.info {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.info:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .heroContainer {
+    flex-direction: column column-reverse;
+    align-items: center;
+  }
+  .heroContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    width: 250px;
+    height: 240px;
+  }
+  .bottomHeroContent {
+    margin-left: 0;
+    text-align: center;
+  }
+  
+}
