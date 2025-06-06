@@ -1,7 +1,6 @@
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   padding: 20px 0;
 }
 
@@ -22,22 +21,72 @@
 .menuIcon {
   display: none;
   font-size: 2rem;
+} */
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000000;
+  padding: 16px 24px;
+  position: relative;
 }
 
-
-/* MEDIA QUERIES */
-@media screen and (max-width: 600px) {
-  .navLists {
-    display: none;
-  }
-  .menuIcon {
-    display: block;
-  }
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
+.links {
+  display: flex;
+  gap: 2rem;
+}
 
+.links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+}
 
+.mobileMenuIcon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
 
+.dropdownMenu {
+  display: none;
+  flex-direction: column;
+  background: #333;
+  position: absolute;
+  top: 60px;
+  right: 24px;
+  left: 24px;
+  z-index: 100;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+.dropdownMenu a {
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.dropdownMenu a:hover {
+  background: #444;
+}
+.toggleBtn {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
 
 
 @media(max-width: 768px) {
@@ -46,5 +95,14 @@
   } */
   .navLists {
     display: none;
+  }
+  .links {
+    display: none;
+  }
+  .mobileMenuIcon {
+    display: block;
+  }
+  .dropdownMenu {
+    display: flex;
   }
 }

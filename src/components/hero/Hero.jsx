@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import styles from "./hero.module.css";
 
 const Hero = () => {
@@ -25,7 +26,18 @@ const Hero = () => {
             >
               Download CV
             </a>
-            <button className={styles.info}>Contact info</button>
+            <button
+              className={styles.info}
+              onClick={() => {
+                const contactSection = document.getElementById("contact");
+                if (contactSection) {
+                  contactSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              Contact info
+            </button>
+            {/* <button className={styles.info}>Contact info</button> */}
           </div>
           <div className={styles.icon}>
             <a
@@ -36,6 +48,9 @@ const Hero = () => {
             </a>
             <a href="https://github.com/IYKEACE" target="_blank">
               <FaGithub className="fa-2x" />
+            </a>
+            <a href="https://x.com/ikechukwuu338" target="_blank">
+              <FaSquareXTwitter className="fa-2x" />
             </a>
           </div>
         </section>

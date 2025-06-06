@@ -1,8 +1,3 @@
-// import { FaHtml5, FaCss3Alt, FaReact, FaNode, FaGitAlt } from "react-icons/fa6";
-// import { IoLogoFigma, IoLogoJavascript } from "react-icons/io5";
-// import { SiMongodb } from "react-icons/si";
-// import { IoLogoNpm } from "react-icons/io";
-
 export const navbarData = [
   { id: 0, name: "Home", path: "home" },
   { id: 1, name: "About", path: "about" },

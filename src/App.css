@@ -3,3 +3,45 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+/* Light mode (default) */
+body {
+  background: #fff;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode: everything turns dodgerblue */
+body.dark-mode {
+  background: #181818;
+  color: dodgerblue;
+}
+
+body.dark-mode,
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6,
+body.dark-mode a,
+body.dark-mode .navbar,
+body.dark-mode .links a,
+body.dark-mode .dropdownMenu a,
+body.dark-mode .logo {
+  color: dodgerblue !important;
+}
+
+/* Optional: Navbar background stays dark or you can set it to dodgerblue as well */
+body.dark-mode .navbar {
+  background: #181818 !important; /* or use background: dodgerblue !important; if you want */
+}
+
+/* Optional: Dropdown menu background in dark mode */
+body.dark-mode .dropdownMenu {
+  background: #181818;
+}
+body.dark-mode .logo-global {
+  color: dodgerblue !important;
+}
