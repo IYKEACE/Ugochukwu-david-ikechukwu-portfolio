@@ -1,5 +1,5 @@
 import { skillsData } from "../../utils/data";
-import styles from "./Skills.module.css";
+import styles from "./skills.module.css";
 import { ImUserTie } from "react-icons/im";
 import { FaUsers } from "react-icons/fa6";
 

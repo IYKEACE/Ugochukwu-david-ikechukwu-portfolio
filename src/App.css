@@ -35,7 +35,7 @@ body.dark-mode .logo {
 
 /* Optional: Navbar background stays dark or you can set it to dodgerblue as well */
 body.dark-mode .navbar {
-  background: #181818 !important; /* or use background: dodgerblue !important; if you want */
+  background: #181818 !important;
 }
 
 /* Optional: Dropdown menu background in dark mode */
