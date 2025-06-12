@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 15rem;
   color: #000000;
-  padding: 16px 24px;
+  padding: 5px 50px;
   position: relative;
-  position: sticky; 
+  position: fixed; 
   top: 0;
   z-index: 1000;
-  /* background: #fff; */
+  background-color: #fff;
 }
 
 .logo {
@@ -64,7 +65,6 @@
   color: inherit;
   font-size: 1.5rem;
   cursor: pointer;
-  margin-left: 1rem;
   transition: color 0.3s;
 }
 

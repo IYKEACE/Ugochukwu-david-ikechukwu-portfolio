@@ -10,7 +10,6 @@ body {
   color: #222;
   transition: background 0.3s, color 0.3s;
 }
-
 /* Dark mode: everything turns dodgerblue */
 body.dark-mode {
   background: #181818;
@@ -32,12 +31,15 @@ body.dark-mode .dropdownMenu a,
 body.dark-mode .logo {
   color: dodgerblue !important;
 }
-
-/* Optional: Navbar background stays dark or you can set it to dodgerblue as well */
 body.dark-mode .navbar {
-  background: #181818 !important;
+  background-color: #000 !important;
+  color: dodgerblue !important;
 }
-
+body.dark-mode .navbar a,
+body.dark-mode .navbar .logo,
+body.dark-mode .navbar .links a {
+  color: dodgerblue !important;
+}
 /* Optional: Dropdown menu background in dark mode */
 body.dark-mode .dropdownMenu {
   background: #181818;
