@@ -2,16 +2,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 15rem;
   color: #000000;
-  padding: 5px 50px;
-  position: relative;
-  position: fixed; 
+  padding: 16px 24px;
+  position: sticky; 
   top: 0;
   z-index: 1000;
-  background-color: #fff;
+  background: #fff; /* Light mode background */
 }
-
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
