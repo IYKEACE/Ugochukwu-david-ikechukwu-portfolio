@@ -11,7 +11,7 @@ const Skills = () => {
         <h2>About Me</h2>
         <section className={styles.skillsContent}>
           <section className={styles.topSkills}>
-            <img src="/public/IYKEIN TECH.jpg" alt="logo" />
+            <img src="/IYKEIN TECH.jpg" alt="logo" />
           </section>
           <section className={styles.bottomSkills}>
             <div className={styles.cards}>

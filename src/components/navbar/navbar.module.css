@@ -19,6 +19,8 @@
 .links {
   display: flex;
   gap: 2rem;
+  /* height: 2000px; */
+  padding: 20px;
 }
 
 .links a {

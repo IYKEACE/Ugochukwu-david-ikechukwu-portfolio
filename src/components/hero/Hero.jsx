@@ -9,7 +9,7 @@ const Hero = () => {
       <section className={styles.heroContent}>
         <section className={styles.topHeroContent}>
           <img
-            src="/public/IYKEIN TECH.jpg"
+            src="/IYKEIN TECH.jpg"
             alt="IYKEIN TECH"
             className={styles.image}
           />
