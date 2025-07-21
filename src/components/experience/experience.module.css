@@ -81,8 +81,8 @@ h2 {
     gap: 1.2rem;
   }
   .mark {
-    gap: 0.7rem;
+    /* gap: 0.7rem; */
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 }
