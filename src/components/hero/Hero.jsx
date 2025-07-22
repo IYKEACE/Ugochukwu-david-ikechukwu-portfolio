@@ -20,11 +20,11 @@ const Hero = () => {
           <p className={styles.skill}>A Frontend Developer</p>
           <div className={styles.btn}>
             <a
-              href="/public/Ugochukwu David Cv.pdf"
+              href="/Ugochukwu David - Resume.pdf"
               download="MY CV.pdf"
               className={styles.cv}
             >
-              Download CV
+              Download CV &#8681;
             </a>
             <button
               className={styles.info}
