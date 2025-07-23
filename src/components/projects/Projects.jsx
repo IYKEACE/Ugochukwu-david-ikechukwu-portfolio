@@ -12,13 +12,13 @@ const Projects = () => {
             <h3>Project One</h3>
             <div className={styles.buttons}>
               <a
-                href="https://github.com/IYKEACE/Estate-landing-page"
+                href="https://github.com/IYKEACE/Estate-landing-page" target="_blank"
                 className={styles.btns}
               >
                 Github
               </a>
               <a
-                href="https://iykeace.github.io/Estate-landing-page/"
+                href="https://iykeace.github.io/Estate-landing-page/" target="_blank"
                 className={styles.btns}
               >
                 Live Demo
@@ -30,13 +30,13 @@ const Projects = () => {
             <h3>Project Two</h3>
             <div className={styles.buttons}>
               <a
-                href="https://github.com/IYKEACE/student-login-form"
+                href="https://github.com/IYKEACE/student-login-form" target="_blank"
                 className={styles.btns}
               >
                 Github
               </a>
               <a
-                href="https://iykeace.github.io/student-login-form/"
+                href="https://iykeace.github.io/student-login-form/" target="_blank"
                 className={styles.btns}
               >
                 Live Demo
@@ -48,13 +48,13 @@ const Projects = () => {
             <h3>Project Three</h3>
             <div className={styles.buttons}>
               <a
-                href="https://github.com/IYKEACE/real-landing-page"
+                href="https://github.com/IYKEACE/real-landing-page" target="_blank"
                 className={styles.btns}
               >
                 Github
               </a>
               <a
-                href="https://iykeace.github.io/real-landing-page/"
+                href="https://iykeace.github.io/real-landing-page/" target="_blank"
                 className={styles.btns}
               >
                 Live Demo

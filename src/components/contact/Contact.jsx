@@ -29,7 +29,7 @@ const Contact = () => {
     alert("Form submitted completely!");
     // Submit logic here
   };
-  
+
   return (
     <div>
       <section className={styles.contact} id="contact">
@@ -38,45 +38,42 @@ const Contact = () => {
       </section>
       <form onSubmit={handleSubmit}>
         <div>
-          <Input
+          <input
             type="text"
             name="firstName"
             placeholder="First Name"
             className={styles.input}
             onChange={handleChange}
-            label="First Name"
             value={form.firstName}
           />
-          <Input
+          <input
             type="text"
             name="lastName"
             placeholder="Last Name"
             className={styles.input}
             onChange={handleChange}
-            label="Last Name"
             value={form.lastName}
           />
         </div>
         <div>
-          <Input
+          <input
             type="email"
             name="email"
             placeholder="Email"
             className={styles.input}
             onChange={handleChange}
-            label="Email"
             value={form.email}
           />
         </div>
         <div>
-          <Textarea
+          <textarea
             name="message"
             className={styles.textarea}
             onChange={handleChange}
-            label="Message"
             cols="30"
             rows="10"
             value={form.message}
+            placeholder="Your message here..."
           />
         </div>
         <div>
