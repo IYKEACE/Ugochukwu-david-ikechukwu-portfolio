@@ -7,7 +7,7 @@
   position: sticky; 
   top: 0;
   z-index: 1000;
-  background: #fff; /* Light mode background */
+  background-color: transparent;
 }
 .logo {
   font-size: 1.5rem;

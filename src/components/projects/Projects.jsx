@@ -8,18 +8,18 @@ const Projects = () => {
         <h2>Projects</h2>
         <div className={styles.projectContent}>
           <div className={styles.projectCard}>
-            <img src="/age calcule.png" alt="project one" />
-            <h3>Project One</h3>
+            <img src="/pasifik.png" alt="project one" />
+            <h3>Pasifik Project</h3>
             <div className={styles.buttons}>
               <a
-                href="https://iykeace.github.io/codealpha_agecalculator/"
+                href="https://github.com/IYKEACE/pasifik-project"
                 target="_blank"
                 className={styles.btns}
               >
                 Github
               </a>
               <a
-                href="https://codealpha-agecalculator-6y2p6ez3n.vercel.app/"
+                href="https://pasifik-project.vercel.app/"
                 target="_blank"
                 className={styles.btns}
               >
@@ -49,7 +49,7 @@ const Projects = () => {
           </div>
           <div className={styles.projectCard}>
             <img src="/portfolio bspecial.png" alt="project three" />
-            <h3>Project Three</h3>
+            <h3>Bspecial Projects</h3>
             <div className={styles.buttons}>
               <a
                 href="https://github.com/IYKEACE/BSpecialAviation"

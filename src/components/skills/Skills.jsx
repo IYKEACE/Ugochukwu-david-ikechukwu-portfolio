@@ -18,7 +18,7 @@ const Skills = () => {
               <div className={styles.card}>
                 <ImUserTie className={styles.icon} />
                 <h3>Experience</h3>
-                <p>2+ years</p>
+                <p>1+ years</p>
                 <p>
                   Frontend Development <br />& <br />
                   Backend Development
@@ -28,7 +28,7 @@ const Skills = () => {
                 <FaUsers className={styles.icon} />
                 <h3>Education</h3>
                 <p>B.Sc. Bachelor's Degree</p>
-                <p>M.Sc. Master's Degree</p>
+                {/* <p>M.Sc. Master's Degree</p> */}
               </div>
             </div>
 
