@@ -14,7 +14,7 @@ const Experience = () => {
               <div className={styles.marks}>
                 <div className={styles.mark}>
                   <img
-                    src="/public/html5-original.svg"
+                    src="/html5-original.svg"
                     alt="HTML"
                     className={styles.logo}
                   />
@@ -25,7 +25,11 @@ const Experience = () => {
                 </div>
 
                 <div className={styles.mark}>
-                  <img src="/public/css3-original.svg" alt="CSS" className={styles.logo} />
+                  <img
+                    src="/css3-original.svg"
+                    alt="CSS"
+                    className={styles.logo}
+                  />
                   <div>
                     <h4>CSS</h4>
                     <p>Experienced</p>
@@ -33,7 +37,7 @@ const Experience = () => {
                 </div>
                 <div className={styles.mark}>
                   <img
-                    src="/public/javascript-original.svg"
+                    src="/javascript-original.svg"
                     alt="JavaScript"
                     className={styles.logo}
                   />
@@ -45,7 +49,7 @@ const Experience = () => {
 
                 <div className={styles.mark}>
                   <img
-                    src="/public/react-original.svg"
+                    src="/react-original.svg"
                     alt="React"
                     className={styles.logo}
                   />
@@ -57,7 +61,7 @@ const Experience = () => {
 
                 <div className={styles.mark}>
                   <img
-                    src="/public/nextjs-original.svg"
+                    src="/nextjs-original.svg"
                     alt="Next.js"
                     className={styles.logo}
                   />
@@ -73,7 +77,7 @@ const Experience = () => {
               <div className={styles.marks}>
                 <div className={styles.mark}>
                   <img
-                    src="/public/nodejs-original.svg"
+                    src="/nodejs-original.svg"
                     alt="Node js"
                     className={styles.logo}
                   />
@@ -84,7 +88,7 @@ const Experience = () => {
                 </div>
                 <div className={styles.mark}>
                   <img
-                    src="/public/express-original.svg"
+                    src="/express-original.svg"
                     alt="Express"
                     className={styles.logo}
                   />
@@ -95,7 +99,7 @@ const Experience = () => {
                 </div>
                 <div className={styles.mark}>
                   <img
-                    src="/public/mongodb-original.svg"
+                    src="/mongodb-original.svg"
                     alt="Express"
                     className={styles.logo}
                   />
@@ -106,7 +110,7 @@ const Experience = () => {
                 </div>
                 <div className={styles.mark}>
                   <img
-                    src="/public/git-original.svg"
+                    src="/git-original.svg"
                     alt="Express"
                     className={styles.logo}
                   />
@@ -117,7 +121,7 @@ const Experience = () => {
                 </div>
                 <div className={styles.mark}>
                   <img
-                    src="/public/postgresql-original.svg"
+                    src="/postgresql-original.svg"
                     alt="Express"
                     className={styles.logo}
                   />
