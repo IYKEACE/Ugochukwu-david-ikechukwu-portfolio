@@ -13,108 +13,57 @@ const Experience = () => {
               <h3>FRONTEND DEVELOPMENT</h3>
               <div className={styles.marks}>
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
+                  <img
+                    src="/public/html5-original.svg"
+                    alt="HTML"
+                    className={styles.logo}
+                  />
+                  <div>
                     <h4>HTML</h4>
                     <p>Experienced</p>
                   </div>
                 </div>
+
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
+                  <img src="/public/css3-original.svg" alt="CSS" className={styles.logo} />
+                  <div>
                     <h4>CSS</h4>
                     <p>Experienced</p>
                   </div>
                 </div>
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
-                    <h4>JAVASCRIPT</h4>
-                    <p>Basic</p>
+                  <img
+                    src="/public/javascript-original.svg"
+                    alt="JavaScript"
+                    className={styles.logo}
+                  />
+                  <div>
+                    <h4>JavaScript</h4>
+                    <p>Experienced</p>
                   </div>
                 </div>
+
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
-                    <h4>REACT</h4>
-                    <p>Basic</p>
+                  <img
+                    src="/public/react-original.svg"
+                    alt="React"
+                    className={styles.logo}
+                  />
+                  <div>
+                    <h4>React</h4>
+                    <p>Experienced</p>
                   </div>
                 </div>
+
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
-                    <h4>NEXT.js</h4>
-                    <p>Basic</p>
+                  <img
+                    src="/public/nextjs-original.svg"
+                    alt="Next.js"
+                    className={styles.logo}
+                  />
+                  <div>
+                    <h4>Next.js</h4>
+                    <p>Experienced</p>
                   </div>
                 </div>
               </div>
@@ -123,128 +72,57 @@ const Experience = () => {
               <h3>BACKEND DEVELOPMENT</h3>
               <div className={styles.marks}>
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
+                  <img
+                    src="/public/nodejs-original.svg"
+                    alt="Node js"
+                    className={styles.logo}
+                  />
+                  <div>
                     <h4>NODE.JS</h4>
                     <p>Intermediate</p>
                   </div>
                 </div>
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
-                    <h4>EXPRESS.js</h4>
+                  <img
+                    src="/public/express-original.svg"
+                    alt="Express"
+                    className={styles.logo}
+                  />
+                  <div>
+                    <h4>EXPRESS</h4>
                     <p>Intermediate</p>
                   </div>
                 </div>
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
-                    <h4>MONGOdb</h4>
+                  <img
+                    src="/public/mongodb-original.svg"
+                    alt="Express"
+                    className={styles.logo}
+                  />
+                  <div>
+                    <h4>MONGO DB</h4>
                     <p>Intermediate</p>
                   </div>
                 </div>
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
+                  <img
+                    src="/public/git-original.svg"
+                    alt="Express"
+                    className={styles.logo}
+                  />
+                  <div>
                     <h4>GIT</h4>
                     <p>Intermediate</p>
                   </div>
                 </div>
                 <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
+                  <img
+                    src="/public/postgresql-original.svg"
+                    alt="Express"
+                    className={styles.logo}
+                  />
+                  <div>
                     <h4>POSTGRESQL</h4>
-                    <p>Intermediate</p>
-                  </div>
-                </div>
-                <div className={styles.mark}>
-                  <div
-                    style={{
-                      display: "inline-block",
-                      width: "24px",
-                      height: "24px",
-                      borderRadius: "50%",
-                      background: "#000",
-                      color: "#fff",
-                      textAlign: "center",
-                      lineHeight: "24px",
-                      fontWeight: "Bold",
-                    }}
-                  >
-                    &#10003;
-                  </div>
-                  <div className={styles.htm}>
-                    <h4>EXPRESS.JS</h4>
                     <p>Intermediate</p>
                   </div>
                 </div>

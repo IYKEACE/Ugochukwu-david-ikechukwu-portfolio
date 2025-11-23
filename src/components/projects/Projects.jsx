@@ -28,6 +28,66 @@ const Projects = () => {
             </div>
           </div>
           <div className={styles.projectCard}>
+            <img src="/Martina.png" alt="project three" />
+            <h3>Martina Projects</h3>
+            <div className={styles.buttons}>
+              {/* <a
+                href="https://github.com/IYKEACE/BSpecialAviation"
+                target="_blank"
+                className={styles.btns}
+              >
+                Github
+              </a> */}
+              <a
+                href="https://martinaa.netlify.app/"
+                target="_blank"
+                className={styles.btns}
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div className={styles.projectCard}>
+            <img src="/portfolio bspecial.png" alt="project three" />
+            <h3>Bspecial Projects</h3>
+            <div className={styles.buttons}>
+              <a
+                href="https://github.com/IYKEACE/BSpecialAviation"
+                target="_blank"
+                className={styles.btns}
+              >
+                Github
+              </a>
+              <a
+                href="https://b-special-973p.vercel.app/"
+                target="_blank"
+                className={styles.btns}
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div className={styles.projectCard}>
+            <img src="/Luxury.png" alt="project three" />
+            <h3>Bspecial Projects</h3>
+            <div className={styles.buttons}>
+              <a
+                href="https://github.com/IYKEACE/Iuxury-real-estate-rental-website"
+                target="_blank"
+                className={styles.btns}
+              >
+                Github
+              </a>
+              <a
+                href="https://iuxury-real-estate-rental-website.vercel.app/"
+                target="_blank"
+                className={styles.btns}
+              >
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div className={styles.projectCard}>
             <img src="/srudent-img.png" alt="project two" />
             <h3>Project Two</h3>
             <div className={styles.buttons}>

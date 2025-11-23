@@ -61,4 +61,8 @@ textarea {
     font-size: 1rem;
     padding: 10px 12px;
   }
+  .contact{
+    justify-content: center;
+    align-content: center;
+  }
 }

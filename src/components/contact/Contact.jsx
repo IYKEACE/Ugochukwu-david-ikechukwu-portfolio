@@ -26,8 +26,19 @@ const Contact = () => {
       alert("Please complete the form before submitting");
       return;
     }
-    alert("Form submitted completely!");
-    // Submit logic here
+
+    const phone = "2349058161216";
+
+    const text =
+      "New message from my portfolio contact form:%0A" +
+      `First Name: ${form.firstName}%0A` +
+      `Last Name: ${form.lastName}%0A` +
+      `Email: ${form.email}%0A` +
+      `Message: ${form.message}`;
+
+    const whatsappUrl = `https://wa.me/${phone}?text=${text}`;
+
+    window.open(whatsappUrl, "_blank");
   };
 
   return (
@@ -70,7 +81,7 @@ const Contact = () => {
             name="message"
             className={styles.textarea}
             onChange={handleChange}
-            cols="30"
+            cols="35"
             rows="10"
             value={form.message}
             placeholder="Your message here..."
